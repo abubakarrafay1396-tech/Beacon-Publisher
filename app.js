@@ -1,4 +1,4 @@
-  // Helper: WhatsApp & Email integration
+        // Helper: WhatsApp & Email integration
         function contactPricing(planName) {
             const msg = `Hi Beacon Team! I'm interested in the ${planName} publishing plan. Could you share more details?`;
             openWhatsApp(msg);
@@ -172,3 +172,4 @@
         closeChatBtn.addEventListener('click', () => {
             chatBox.classList.remove('open');
         });
+   
